@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstalledPlugins xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Plugin>
+    <Name>HelloOcean Lab Plugin</Name>
+    <Description>new Ocean plugin for training class</Description>
+    <Contact>oceantraining@slb.com</Contact>
+    <PluginTypeName>OceanLabs.HelloOcean.HelloOceanPlugin, HelloOcean, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null</PluginTypeName>
+    <PluginUri>http://www.ocean.slb.com/</PluginUri>
+    <PluginId>://OceanLabs.HelloOcean.HelloOceanPlugin/17.1.0.0</PluginId>
+    <Trust PublicKeyToken="">Default</Trust>
+    <ReleaseDate>2020-06-19</ReleaseDate>
+    <Author>Ocean Training and Support</Author>
+    <AppVersion>2018.1</AppVersion>
+    <Modules>
+      <Module TypeName="OceanLabs.HelloOcean.HelloOceanModule, HelloOcean, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null" />
+    </Modules>
+    <Assemblies>
+      <Assembly Name="HelloOcean, Version=17.1.0.0, Culture=neutral, PublicKeyToken=null" />
+    </Assemblies>
+    <assemblyBinding />
+    <StartMode>Startup</StartMode>
+    <StartupAction>None</StartupAction>
+    <DeploymentFolder>OceanTraining</DeploymentFolder>
+  </Plugin>
+</InstalledPlugins>
